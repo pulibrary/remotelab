@@ -26,7 +26,9 @@ namespace RemoteLab
                      "~/Content/bootstrap.css",
                     "~/Content/bootstrap-theme.css",
                     "~/Content/font-awesome.css",
-                    "~/Content/jquery.fancybox.css"));
+                    "~/Content/jquery.fancybox.css",
+                    "~/Content/Site.css"
+                    ));
         }
     }
 }
