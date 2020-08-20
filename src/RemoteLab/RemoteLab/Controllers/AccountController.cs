@@ -46,7 +46,7 @@ namespace RemoteLab.Controllers
 
         //
         // POST: /Account/Login
-        [HttpPost]
+        [HttpPost, ValidateInput(false)]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Login(LoginViewModel model, string returnUrl)
