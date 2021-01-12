@@ -274,7 +274,7 @@ namespace RemoteLab.Services
 
         public String GenerateRdpFileContents(string rdpFileSettings, string computer, string username,  int width = 1920, int height = 1200)
         {
-            return String.Format(rdpFileSettings,width,height,computer,username);
+            return String.Format(rdpFileSettings,width,height,computer,username).Replace("\t", "");
         }
 
         public void Dispose()
